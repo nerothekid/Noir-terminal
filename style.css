@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #00ffcc;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#terminal {
+  width: 90%;
+  max-width: 800px;
+}
+
+#output {
+  min-height: 300px;
+  white-space: pre-wrap;
+}
+
+#input {
+  width: 100%;
+  padding: 10px;
+  background: #111;
+  border: none;
+  color: #00ffcc;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  outline: none;
+}
+
+.rodape {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #008877;
+  opacity: 0.6;
+  text-align: center;
+}
